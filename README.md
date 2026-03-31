@@ -137,19 +137,3 @@ AI Engineer | Ex-ICICI Bank | IIT Kharagpur
 [LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/limbarajjanga-spec)
 ```
 
----
-
-## GitHub Repo Description
-
-This goes in the **About** section (top right of your repo page — click the gear icon ⚙️):
-```
-Natural language analytics interface — ask business questions in plain English, get live SQL + charts. Built with Claude Sonnet, Streamlit, and Databricks Delta Lake.
-```
-
----
-
-## GitHub Topics/Tags
-
-Click the gear ⚙️ next to About and add these topics:
-```
-streamlit  anthropic  claude-api  text2sql  databricks  delta-lake  llm  natural-language-processing  python  ai-engineer
