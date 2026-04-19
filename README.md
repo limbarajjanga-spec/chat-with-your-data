@@ -20,11 +20,14 @@
 Type a business question in plain English — Claude Sonnet converts it to SQL, runs it live against the database, and returns formatted results with an auto-generated chart.
 
 **Example questions:**
-- "Total revenue by product category"
-- "Top 5 sales reps by revenue"
-- "Monthly revenue trend in 2024"
-- "Which region had the most orders?"
-- "Products with stock quantity below 50"
+- "Which manufacturer sold the most units in 2025-Q1?"
+- "Average range by segment — SUV vs Sedan vs Truck"
+- "Top 5 countries by total EV units sold"
+- "How does Tesla's MSRP compare to BYD across quarters?"
+- "Which models qualify for a government subsidy above $5,000?"
+- "Monthly sales trend for Hyundai Ioniq 6 across all regions"
+- "Countries with the highest average charging stations nearby"
+- "Show battery capacity vs range for all models"
 
 ---
 
@@ -85,7 +88,7 @@ chat-with-your-data/
 ├── sql_generator.py     # Claude API — SQL generation + reflection loop
 ├── schema_loader.py     # Schema injector for Claude's context window
 ├── database.py          # Query executor (SQLite / Databricks)
-├── mock_data.py         # In-memory SQLite seed data (500 rows)
+├── ev_mock_data.py      # In-memory SQLite seed data (2,970 rows)
 ├── requirements.txt
 ├── Procfile             # Railway deployment
 └── .streamlit/
@@ -135,5 +138,3 @@ Everything else — SQL generation, reflection, charts — works identically.
 **Limba Raj Janga**  
 AI Engineer | Ex-ICICI Bank | IIT Kharagpur  
 [LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/limbarajjanga-spec)
-```
-
